@@ -2,5 +2,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-hash.each { |k, v| p k if v == hash.values.min }
+name_hash.to_a 
+
 end
