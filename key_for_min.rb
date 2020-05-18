@@ -11,8 +11,8 @@ name_hash.each do
 p "#{key}: #{value}"
 min_value=500
   
-   if min_value>element
-     min_value=element
+   if min_value>value
+     min_value=value
    end 
 end
 
