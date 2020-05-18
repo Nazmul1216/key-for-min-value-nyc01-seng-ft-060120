@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
    end 
 name_hash.each do 
 p "#{key}: #{value}"
+end
 
 
 end
