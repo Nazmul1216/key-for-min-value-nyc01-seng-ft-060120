@@ -9,7 +9,8 @@ min_value=500
   
    if min_value>value
      min_value=value
-   end 
+   end
+   p key
 end
 
 
