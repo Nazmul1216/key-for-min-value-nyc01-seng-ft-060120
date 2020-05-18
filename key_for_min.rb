@@ -9,6 +9,11 @@ def key_for_min_value(name_hash)
    end 
 name_hash.each do 
 p "#{key}: #{value}"
+min_value=500
+  
+   if min_value>element
+     min_value=element
+   end 
 end
 
 
